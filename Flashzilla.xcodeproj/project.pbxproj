@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1199A3285ECFEC00E30BD6 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1199A2285ECFEC00E30BD6 /* FileManager-DocumentsDirectory.swift */; };
+		4B1199A5285ED4A700E30BD6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1199A4285ED4A700E30BD6 /* DataManager.swift */; };
 		4BEF755A285E9E840094ACD3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEF7559285E9E840094ACD3 /* Card.swift */; };
 		4BEF755C285E9E950094ACD3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEF755B285E9E950094ACD3 /* CardView.swift */; };
 		4BEF7560285E9F790094ACD3 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEF755F285E9F790094ACD3 /* EditCards.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B1199A2285ECFEC00E30BD6 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		4B1199A4285ED4A700E30BD6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		4BEF7559285E9E840094ACD3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4BEF755B285E9E950094ACD3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4BEF755F285E9F790094ACD3 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				4BEF7559285E9E840094ACD3 /* Card.swift */,
 				4BEF755B285E9E950094ACD3 /* CardView.swift */,
 				4BEF755F285E9F790094ACD3 /* EditCards.swift */,
+				4B1199A2285ECFEC00E30BD6 /* FileManager-DocumentsDirectory.swift */,
+				4B1199A4285ED4A700E30BD6 /* DataManager.swift */,
 				4BF7FDC1285BED63002EE26A /* Assets.xcassets */,
 				4BF7FDC3285BED63002EE26A /* Preview Content */,
 			);
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1199A3285ECFEC00E30BD6 /* FileManager-DocumentsDirectory.swift in Sources */,
 				4BF7FDC0285BED61002EE26A /* ContentView.swift in Sources */,
 				4BEF755A285E9E840094ACD3 /* Card.swift in Sources */,
+				4B1199A5285ED4A700E30BD6 /* DataManager.swift in Sources */,
 				4BEF755C285E9E950094ACD3 /* CardView.swift in Sources */,
 				4BEF7560285E9F790094ACD3 /* EditCards.swift in Sources */,
 				4BF7FDBE285BED61002EE26A /* FlashzillaApp.swift in Sources */,
